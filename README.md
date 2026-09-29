@@ -1,10 +1,10 @@
-# neo — Desktop（电脑版）· Release 仓库
+# neo — Windows · Release 仓库
 
-本仓库是 **neo 电脑版（Windows）的发布仓库**，只放 Release 安装包，不含源码。
+本仓库是 **neo Windows 版的发布仓库**，只放 Release 安装包，不含源码。
 
 ## 这是什么
 
-**neo（电脑版）** 是一个基于开源内核的 Windows 本地代理客户端。需要特别说明的是：
+**neo（Windows）** 是一个基于开源内核的 Windows 本地代理客户端。需要特别说明的是：
 
 - **内核（核心）是成熟的开源项目**：本程序通过子进程方式调用 [xray-core](https://github.com/XTLS/Xray-core) 与 [sing-box](https://github.com/SagerNet/sing-box)（随安装包分发，均遵循各自的开源许可证）。**所有代理协议、传输、加密能力全部来自上述开源项目，neo 没有实现任何私有代理协议。**
 - **neo 做的事是客户端壳与分流路由机制的更改与优化**，包括：
